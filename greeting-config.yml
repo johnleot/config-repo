@@ -4,8 +4,9 @@ management:
 
 logging: # <----New sections below
     level:
-        io:
-            pivotal: INFO
+        root: WARN
+        com:
+            orangeandbronze: DEBUG
 
 greeting:
     displayFortune: true
